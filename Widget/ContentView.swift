@@ -19,3 +19,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+//1. Create new target 'Widget Extension'

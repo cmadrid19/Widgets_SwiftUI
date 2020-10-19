@@ -11,7 +11,38 @@
 		9E6C206C253DE71E004C1E39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C206B253DE71E004C1E39 /* ContentView.swift */; };
 		9E6C206E253DE721004C1E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6C206D253DE721004C1E39 /* Assets.xcassets */; };
 		9E6C2071253DE721004C1E39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6C2070253DE721004C1E39 /* Preview Assets.xcassets */; };
+		9E6C2081253DE9A6004C1E39 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6C2080253DE9A6004C1E39 /* WidgetKit.framework */; };
+		9E6C2083253DE9A7004C1E39 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6C2082253DE9A6004C1E39 /* SwiftUI.framework */; };
+		9E6C2086253DE9A7004C1E39 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C2085253DE9A7004C1E39 /* Graph.swift */; };
+		9E6C2089253DE9A7004C1E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E6C2088253DE9A7004C1E39 /* Assets.xcassets */; };
+		9E6C208B253DE9A7004C1E39 /* Graph.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C2087253DE9A7004C1E39 /* Graph.intentdefinition */; };
+		9E6C208C253DE9A7004C1E39 /* Graph.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 9E6C2087253DE9A7004C1E39 /* Graph.intentdefinition */; };
+		9E6C208F253DE9A7004C1E39 /* GraphExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9E6C207E253DE9A6004C1E39 /* GraphExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E6C208D253DE9A7004C1E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E6C205E253DE71E004C1E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E6C207D253DE9A6004C1E39;
+			remoteInfo = GraphExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E6C2093253DE9A7004C1E39 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9E6C208F253DE9A7004C1E39 /* GraphExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9E6C2066253DE71E004C1E39 /* Widget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +51,13 @@
 		9E6C206D253DE721004C1E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E6C2070253DE721004C1E39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9E6C2072253DE721004C1E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E6C207E253DE9A6004C1E39 /* GraphExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GraphExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E6C2080253DE9A6004C1E39 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9E6C2082253DE9A6004C1E39 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9E6C2085253DE9A7004C1E39 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		9E6C2087253DE9A7004C1E39 /* Graph.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Graph.intentdefinition; sourceTree = "<group>"; };
+		9E6C2088253DE9A7004C1E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E6C208A253DE9A7004C1E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +68,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E6C207B253DE9A6004C1E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6C2083253DE9A7004C1E39 /* SwiftUI.framework in Frameworks */,
+				9E6C2081253DE9A6004C1E39 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -37,6 +84,8 @@
 			isa = PBXGroup;
 			children = (
 				9E6C2068253DE71E004C1E39 /* Widget */,
+				9E6C2084253DE9A7004C1E39 /* Graph */,
+				9E6C207F253DE9A6004C1E39 /* Frameworks */,
 				9E6C2067253DE71E004C1E39 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				9E6C2066253DE71E004C1E39 /* Widget.app */,
+				9E6C207E253DE9A6004C1E39 /* GraphExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,6 +102,7 @@
 		9E6C2068253DE71E004C1E39 /* Widget */ = {
 			isa = PBXGroup;
 			children = (
+				9E6C2079253DE962004C1E39 /* View */,
 				9E6C2069253DE71E004C1E39 /* WidgetApp.swift */,
 				9E6C206B253DE71E004C1E39 /* ContentView.swift */,
 				9E6C206D253DE721004C1E39 /* Assets.xcassets */,
@@ -69,6 +120,33 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9E6C2079253DE962004C1E39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E6C207F253DE9A6004C1E39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E6C2080253DE9A6004C1E39 /* WidgetKit.framework */,
+				9E6C2082253DE9A6004C1E39 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E6C2084253DE9A7004C1E39 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				9E6C2085253DE9A7004C1E39 /* Graph.swift */,
+				9E6C2087253DE9A7004C1E39 /* Graph.intentdefinition */,
+				9E6C2088253DE9A7004C1E39 /* Assets.xcassets */,
+				9E6C208A253DE9A7004C1E39 /* Info.plist */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,15 +157,34 @@
 				9E6C2062253DE71E004C1E39 /* Sources */,
 				9E6C2063253DE71E004C1E39 /* Frameworks */,
 				9E6C2064253DE71E004C1E39 /* Resources */,
+				9E6C2093253DE9A7004C1E39 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9E6C208E253DE9A7004C1E39 /* PBXTargetDependency */,
 			);
 			name = Widget;
 			productName = Widget;
 			productReference = 9E6C2066253DE71E004C1E39 /* Widget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		9E6C207D253DE9A6004C1E39 /* GraphExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E6C2090253DE9A7004C1E39 /* Build configuration list for PBXNativeTarget "GraphExtension" */;
+			buildPhases = (
+				9E6C207A253DE9A6004C1E39 /* Sources */,
+				9E6C207B253DE9A6004C1E39 /* Frameworks */,
+				9E6C207C253DE9A6004C1E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphExtension;
+			productName = GraphExtension;
+			productReference = 9E6C207E253DE9A6004C1E39 /* GraphExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +196,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					9E6C2065253DE71E004C1E39 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					9E6C207D253DE9A6004C1E39 = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
@@ -117,6 +217,7 @@
 			projectRoot = "";
 			targets = (
 				9E6C2065253DE71E004C1E39 /* Widget */,
+				9E6C207D253DE9A6004C1E39 /* GraphExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +232,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9E6C207C253DE9A6004C1E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6C2089253DE9A7004C1E39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,10 +249,28 @@
 			files = (
 				9E6C206C253DE71E004C1E39 /* ContentView.swift in Sources */,
 				9E6C206A253DE71E004C1E39 /* WidgetApp.swift in Sources */,
+				9E6C208C253DE9A7004C1E39 /* Graph.intentdefinition in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E6C207A253DE9A6004C1E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6C2086253DE9A7004C1E39 /* Graph.swift in Sources */,
+				9E6C208B253DE9A7004C1E39 /* Graph.intentdefinition in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E6C208E253DE9A7004C1E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E6C207D253DE9A6004C1E39 /* GraphExtension */;
+			targetProxy = 9E6C208D253DE9A7004C1E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9E6C2073253DE721004C1E39 /* Debug */ = {
@@ -265,6 +392,7 @@
 		9E6C2076253DE721004C1E39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +414,7 @@
 		9E6C2077253DE721004C1E39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +428,46 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = MaximMacari.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9E6C2091253DE9A7004C1E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Graph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaximMacari.Widget.Graph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E6C2092253DE9A7004C1E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Graph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MaximMacari.Widget.Graph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,6 +490,15 @@
 			buildConfigurations = (
 				9E6C2076253DE721004C1E39 /* Debug */,
 				9E6C2077253DE721004C1E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E6C2090253DE9A7004C1E39 /* Build configuration list for PBXNativeTarget "GraphExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E6C2091253DE9A7004C1E39 /* Debug */,
+				9E6C2092253DE9A7004C1E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
